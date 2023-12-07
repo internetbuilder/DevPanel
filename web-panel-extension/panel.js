@@ -64,7 +64,7 @@ var panel = new function()
 
 		if (typeof lastSite.lastSite === 'undefined' || lastSite.lastSite === '')
 		{
-			startupPage = 'local://welcome/test.html';
+			startupPage = 'local://welcome/index.html';
 			chrome.storage.local.set({'lastSite': startupPage});	
 		}
 		else
