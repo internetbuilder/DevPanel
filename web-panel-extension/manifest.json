@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
 
-    "name": "Web Panel",
+    "name": "DevPanel",
     "description": "Navigate to websites in the sidebar.",
     "version": "1.9",
     "background": {"scripts": ["background.js"]},
-    "developer": { "name": "Gustav Ekner" },
+    "developer": { "name": "Jordan Bourbonnais" },
     "icons": {
         "16": "icons/web-panel-16.png",
         "48": "icons/web-panel-48.png",
