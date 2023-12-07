@@ -169,7 +169,7 @@ function editCustomEngine()
 
 function viewHelp()
 {
-	chrome.runtime.sendMessage({msg: 'loadURL', URL: 'local://welcome/index.html'});
+	chrome.runtime.sendMessage({msg: 'loadURL', URL: 'local://welcome/test.html'});
 }
 
 function themeSwitched()
